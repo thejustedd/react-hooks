@@ -21,7 +21,7 @@ function App() {
   }
 
   function fetchTodos() {
-    return fetch(`https://jsonplaceholder.typicode.com/tod5os`);
+    return fetch(`https://jsonplaceholder.typicode.com/todos`);
   }
 
   function onChange(e) {
